@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "8019733984/cyberfrat-devsecops"
-    registryCredential = "docker hub key"
+    registryCredential = "DockerHubKey"
     dockerImage = ''
   }
   agent any
